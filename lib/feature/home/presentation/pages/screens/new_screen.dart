@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:movies_app1/feature/home/data/repositories/homeRepoImp.dart';
-import 'package:movies_app1/feature/home/presentation/manager/layout_cubit.dart';
-import 'package:movies_app1/feature/home/presentation/widgets/new_item.dart';
 
+
+import '../../../data/repositories/homeRepoImp.dart';
+import '../../manager/layout_cubit.dart';
 import '../../manager/layout_state.dart';
+import '../../widgets/new_item.dart';
 
 class NewScreen extends StatelessWidget {
   const NewScreen({Key? key}) : super(key: key);
@@ -26,7 +27,7 @@ class NewScreen extends StatelessWidget {
                   crossAxisCount: 2,
                   mainAxisSpacing: 2,
                   crossAxisSpacing: 0,
-                  childAspectRatio: 1.1 / 2.3,
+                  childAspectRatio: 1 / 2.2,
                   children: List.generate(LayoutCubit.get(context)
                   .upComingList
                   .length, (index)

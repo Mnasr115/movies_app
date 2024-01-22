@@ -1,10 +1,12 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:movies_app1/feature/detail_screen/data/models/simillar_model.dart';
-import 'package:movies_app1/feature/detail_screen/data/repositories/detail_rpo_imp.dart';
-import 'package:movies_app1/feature/detail_screen/presentation/manager/detail_cubit.dart';
-import 'package:movies_app1/feature/detail_screen/presentation/manager/detail_state.dart';
+
+import '../../data/models/simillar_model.dart';
+import '../../data/repositories/detail_rpo_imp.dart';
+import '../manager/detail_cubit.dart';
+import '../manager/detail_state.dart';
+
 
 class DetailScreen extends StatelessWidget {
   DetailScreen(this.id, {super.key});

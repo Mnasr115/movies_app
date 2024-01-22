@@ -2,10 +2,10 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:movies_app1/feature/detail_screen/presentation/pages/detail_screen.dart';
-import 'package:movies_app1/feature/home/presentation/manager/layout_cubit.dart';
-import 'package:movies_app1/feature/home/presentation/manager/layout_state.dart';
 import '../../../../../routes/routes.dart';
+import '../../../../detail_screen/presentation/pages/detail_screen.dart';
+import '../../manager/layout_cubit.dart';
+import '../../manager/layout_state.dart';
 import '../../widgets/new_item.dart';
 import '../../widgets/top_rated_item.dart';
 

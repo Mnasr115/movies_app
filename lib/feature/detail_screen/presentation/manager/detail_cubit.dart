@@ -1,8 +1,9 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:movies_app1/feature/detail_screen/data/models/detail_model.dart';
-import 'package:movies_app1/feature/detail_screen/data/repositories/detail_rpo_imp.dart';
 
+
+import '../../data/models/detail_model.dart';
 import '../../data/models/simillar_model.dart';
+import '../../data/repositories/detail_rpo_imp.dart';
 import 'detail_state.dart';
 
 class DetailCubit extends Cubit<DetailStates> {

@@ -27,7 +27,7 @@ class TopRated extends StatelessWidget {
                 crossAxisCount: 2,
                 mainAxisSpacing: 2,
                 crossAxisSpacing: 0,
-                childAspectRatio: 1.1 / 2.3,
+                childAspectRatio: 1 / 2.3,
                 children: List.generate(LayoutCubit.get(context)
                     .topRatedList
                     .length, (index)

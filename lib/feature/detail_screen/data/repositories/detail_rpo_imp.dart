@@ -1,8 +1,8 @@
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
-import 'package:movies_app1/core/failure.dart';
-import 'package:movies_app1/feature/detail_screen/data/models/detail_model.dart';
 import '../../../../core/constants.dart';
+import '../../../../core/failure.dart';
+import '../models/detail_model.dart';
 import '../models/simillar_model.dart';
 import 'detail_rpo.dart';
 

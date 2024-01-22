@@ -15,17 +15,7 @@ class NewItem extends StatelessWidget {
           elevation: 0,
           borderOnForeground: true,
           color: const Color(0xFF15141F),
-          child: Container(
-            decoration: BoxDecoration(
-                color: const Color(0x4DDADADA),
-                border: Border.all(
-                  color: const Color(0x40FFFFFF),
-                ),
-                borderRadius:
-                const BorderRadius.horizontal(
-                    left: Radius.circular(20),
-                    right:
-                    Radius.circular(20))),
+          child: SizedBox(
             width: 220,
             height: 300,
             child: Padding(
@@ -63,7 +53,7 @@ class NewItem extends StatelessWidget {
                         const SizedBox(width: 20,),
                         Text("${upComingList.voteAverage}",style: const TextStyle(fontSize: 20),)],),
                     const SizedBox(height: 10,),
-                    Text("${upComingList.title}",style: const TextStyle(fontSize: 20,fontWeight: FontWeight.bold),maxLines: 2,overflow: TextOverflow.ellipsis),
+                    Text("${upComingList.title}",style: const TextStyle(fontSize: 18,fontWeight: FontWeight.bold),maxLines: 1,overflow: TextOverflow.ellipsis),
                     const SizedBox(height: 10,),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.end,

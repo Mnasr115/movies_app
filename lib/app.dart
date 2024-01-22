@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:movies_app1/routes/routes.dart';
+import 'package:movie_app/routes/routes.dart';
 
 import 'feature/home/data/repositories/homeRepoImp.dart';
 import 'feature/home/presentation/manager/layout_cubit.dart';

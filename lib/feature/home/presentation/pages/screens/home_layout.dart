@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:movies_app1/feature/home/presentation/manager/layout_cubit.dart';
-import 'package:movies_app1/feature/home/presentation/manager/layout_state.dart';
+
+import '../../manager/layout_cubit.dart';
+import '../../manager/layout_state.dart';
+
 
 
 class HomeLayout extends StatelessWidget {
@@ -21,10 +23,6 @@ class HomeLayout extends StatelessWidget {
               padding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
               child: Container(
                 decoration: BoxDecoration(
-                  color: const Color(0x4DDADADA),
-                  border: Border.all(
-                    color: Color(0x40FFFFFF),
-                  ),
                   borderRadius: const BorderRadius.only(
                     topLeft: Radius.circular(50),
                     topRight: Radius.circular(50),

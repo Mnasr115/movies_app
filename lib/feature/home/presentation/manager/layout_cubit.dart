@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:movies_app1/feature/home/data/models/top_rated.dart';
-import 'package:movies_app1/feature/home/presentation/pages/tab/browse_tab.dart';
-import 'package:movies_app1/feature/home/presentation/pages/tab/home_tab.dart';
-import 'package:movies_app1/feature/home/presentation/pages/tab/search_tab.dart';
-import 'package:movies_app1/feature/home/presentation/pages/tab/watch_list.dart';
 
+
+import '../../data/models/top_rated.dart';
 import '../../data/models/upcoming_model.dart';
 import '../../data/models/pop_model.dart';
 import '../../data/repositories/homeRepoImp.dart';
+import '../pages/tab/browse_tab.dart';
+import '../pages/tab/home_tab.dart';
+import '../pages/tab/search_tab.dart';
+import '../pages/tab/watch_list.dart';
 import 'layout_state.dart';
 
 class LayoutCubit extends Cubit<LayoutStates> {

@@ -1,13 +1,11 @@
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
 
-import 'package:movies_app1/core/failure.dart';
-import 'package:movies_app1/feature/home/data/models/top_rated.dart';
-import 'package:movies_app1/feature/home/data/models/upcoming_model.dart';
-
-import 'package:movies_app1/feature/home/data/models/pop_model.dart';
-
 import '../../../../core/constants.dart';
+import '../../../../core/failure.dart';
+import '../models/pop_model.dart';
+import '../models/top_rated.dart';
+import '../models/upcoming_model.dart';
 import 'home_repo.dart';
 
 class HomeRepoImpl extends HomeRepo {

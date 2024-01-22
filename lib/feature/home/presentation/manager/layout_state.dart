@@ -1,6 +1,6 @@
 
-import 'package:movies_app1/feature/home/data/models/pop_model.dart';
 
+import '../../data/models/pop_model.dart';
 import '../../data/models/top_rated.dart';
 import '../../data/models/upcoming_model.dart';
 
